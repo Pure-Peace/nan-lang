@@ -1,0 +1,13 @@
+[package]
+name = "helloworld-example"
+version = "0.0.0"
+authors = ["Pure-Peace <purepeace_@outlook.com>"]
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "你好世界"
+path = "源文件/主程序.rs"
+
+[dependencies]
+nan-lang = { path = "../../应用程序包/难语言" }

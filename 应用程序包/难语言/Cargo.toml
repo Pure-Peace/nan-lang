@@ -1,0 +1,13 @@
+[package]
+name = "nan-lang"
+version = "0.1.0"
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lib]
+path = "源文件/库.rs"
+
+[dependencies]
+nan-lang-macros = { path = "../难语言-宏" }

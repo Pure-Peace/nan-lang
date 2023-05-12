@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = ["应用程序包/难语言-宏", "应用程序包/难语言", "例子/你好世界"]
+
+[workspace.package]
+authors = ["Pure-Peace <purepeace_@outlook.com>"]
+description = "爱国就用难语言！中国人自己的编程语言！世上无难事，只怕有心人！"
+edition = "2021"
+include = ["/Cargo.toml", "/LICENSE-MIT", "/README.md", "/src/**", "/tests/**"]
+keywords = [
+    "macros",
+    "programming language",
+    "chinese",
+    "china",
+    "huawei",
+    "love country",
+]
+license = "MIT"
+repository = "https://github.com/pure-peace/nan-lang"

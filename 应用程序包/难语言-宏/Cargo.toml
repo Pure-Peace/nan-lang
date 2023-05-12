@@ -1,0 +1,16 @@
+[package]
+name = "nan-lang-macros"
+version = "0.1.0"
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lib]
+path = "源文件/库.rs"
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0.15", features = ["full"] }
+quote = "1.0.26"
+proc-macro2 = { version = "1.0.56", features = ["nightly"] }
